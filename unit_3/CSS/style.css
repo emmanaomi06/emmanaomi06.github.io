@@ -1,0 +1,45 @@
+#yellowbar {
+	height: 10px;
+	background-color: #ffd700;
+	width: 100%;
+}
+nav {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	background-color: #2f2f2f;
+	display: inline;
+}
+#nav1 {
+	font-family: Arial;
+	color: white;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+}
+#nav1 li {
+	display: inline;
+	padding-left: 20px;
+}
+section {
+	height: 600px;
+	margin-left: 0px;
+	background: url("https://www.business.unsw.edu.au/SiteCollectionImages/Content/asb-unsw-campus-48.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+	font-family: Arial;
+	}
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+hr {
+	width: 1000px;
+	height: 2px;
+	background-color: #fff;
+}
+h2 {font-size: 25px;
+	text-align: center;
+}
