@@ -24,7 +24,7 @@ nav {
 	display: inline;
 	padding-left: 20px;
 }
-section {
+main {
 	height: 600px;
 	margin-left: 0px;
 	background: url("https://www.business.unsw.edu.au/SiteCollectionImages/Content/asb-unsw-campus-48.jpg");
@@ -71,16 +71,16 @@ IMG.downarrow {
 	display: block;
 	margin: 10px auto;
 }
-.info.content {
+section {
 	margin: 4em;
-	width: 42%;
+	width: 100%;
 	font-family: Arial;
 	line-height: 1.5em;
 	float: left;
 }
 span {
-	padding: 4em 4em 4em 4em;
 	display: inline;
 	float: right;
+	padding: 4em 4em 4em 4em;
 }
 
