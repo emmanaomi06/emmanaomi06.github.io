@@ -77,16 +77,21 @@ IMG.downarrow {
 	left: 675px;
 }
 section {
-   margin: 2em 4em 0 4em;
+ margin: 2em 0 3em 0;
 }
 
 p {
 	font-family: Arial;
 	float: left;
 	width: 50%;
+	padding: 0 2em 2em 2em;
 }
 
 IMG.circle {
     float: right;
     padding: 0 3em 0 3em;
+}
+
+IMG.heading {
+	width: 100%;
 }
