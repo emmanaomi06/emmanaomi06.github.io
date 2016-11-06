@@ -1,0 +1,137 @@
+body {
+	font-size: 16px;
+}
+
+#logo {
+	margin-left: 4em;
+}
+#yellowbar {
+	height: 10px;
+	background-color: #ffd700;
+	width: 100%;
+}
+nav {
+	height: 40px;
+	width: 100%;
+	background-color: #2f2f2f;
+}
+#nav1 {
+	font-family: Arial;
+	color: white;
+	list-style-type: none;
+	margin: 0 0 0 2.5em;
+	padding: 10px;
+}
+#nav1 li {
+	display: inline-block;
+	padding-left: 20px;
+}
+.banner {
+	height: 600px;
+	background: url("https://www.business.unsw.edu.au/SiteCollectionImages/Content/asb-unsw-campus-48.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+}
+h1 {
+	font-size: 6.25em;
+	font-family: Arial;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+}
+hr {
+	width: 75%;
+	height: 2px;
+	background-color: #fff;
+    text-align: center;
+    display: block;
+}
+h2 {
+	font-size: 25px;
+	color: #ffffff;
+	font-family: sommet;
+	font-weight: normal;
+    text-align: center;
+    display: block;
+}
+button {
+	background-color: #000000;
+	font-family: arial;
+	font-size: 1.2em;
+	color: #ffd700;
+	border: 3px solid black;
+    display: block;
+    position: absolute;
+    padding: .5em .5em .5em .5em;
+    left: 45%;
+    bottom: 17%;
+}
+button:hover {
+	color: #000000;
+	background-color: #ffd700;
+	border: #ffd700;
+	border-style: solid;
+	border-width: 3px;
+}
+IMG.downarrow {
+    display: block;
+    position: absolute;
+    left: 48.5%;
+    bottom: 5%;
+}
+p {
+	font-family: Arial;
+	float: left;
+	width: 50%;
+	margin: 2em 1em 1em 1em;
+}
+
+IMG.circle {
+    float: right;
+    margin: 2em 3em 2em 3em;
+}
+
+IMG.heading {
+	width: 100%;
+}
+#sessions li {
+	list-style-type: none;
+	font-family: Arial;
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	outline: 3px solid #000;
+	margin: 1em;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	padding: 2em;
+}
+
+@media only screen and (max-width: 1325px) {
+	hr {
+		display: none;
+	}
+
+	IMG.circle {
+		display: none;
+	}
+	p {
+		width: 100%;
+		padding-right: 2em;
+		display: block;
+		clear: left;
+	}
+}
+@media only screen and (max-width: 1130px) {
+#sessions li {
+	clear: left;
+	display: block;
+	width: 100%;
+}
+}
